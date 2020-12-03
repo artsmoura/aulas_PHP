@@ -1,0 +1,51 @@
+<?php session_start(); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Exercicio 3</title>
+    <style>
+        #qnt_checkbox{
+            width: 30px;
+        }
+        p, input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="ex3.php">
+        <h3>Escolha os itens da lista</h3>
+        <label>
+            <p>Uva</p>
+            <input type="text" name="qnt_uva" id="qnt_checkbox">
+        </label>
+        <br>
+        <label>
+            <p>Melancia</p>
+            <input type="text" name="qnt_melancia" id="qnt_checkbox">
+        </label>
+        <br>
+        <label>
+            <p>Laranja</p>
+            <input type="text" name="qnt_laranja" id="qnt_checkbox">
+        </label>
+        <br>
+        <label>
+            <p>Abacaxi</p>
+            <input type="text" name="qnt_abacaxi" id="qnt_checkbox">
+        </label>
+        <br>
+        <label>
+            <p>Manga</p>
+            <input type="text" name="qnt_manga" id="qnt_checkbox">
+        </label>
+        <br>
+        <label>
+            <p>Mamão</p>
+            <input type="text" name="qnt_mamao" id="qnt_checkbox">
+        </label>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
